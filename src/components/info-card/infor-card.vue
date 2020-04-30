@@ -44,7 +44,8 @@ export default {
   },
   computed: {
     leftWidth () {
-      return `${this.left}%`
+      // return `${this.left}%`
+      return `26%`
     },
     rightWidth () {
       return `${100 - this.left}%`
